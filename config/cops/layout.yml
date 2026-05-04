@@ -27,7 +27,7 @@ Layout/ParameterAlignment:
 
 Layout/LineLength:
   Max: 120
-  IgnoreCopDirectives: true
+  AllowCopDirectives: true
   AllowedPatterns: ['\s#\s|^#\s'] # allows comments to overflow the line length. E.g. for URLs
   Exclude:
     - 'spec/**/*'
